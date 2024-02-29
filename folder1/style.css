@@ -1,0 +1,360 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-bar{
+    width: 100vw;
+    display: flex;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.left-nav{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 2;
+    font-family: "Poppins",sans-serif;
+    font-size: 16px;
+}
+
+.right-nav{
+    
+    display: flex;
+    justify-content: center;
+    flex: 2;
+}
+
+#no{
+    position: absolute;
+    margin-top: 20px;
+}
+
+#logo{
+    border-radius: 50%;
+}
+
+a{
+    text-decoration: none;
+    color:aliceblue
+}
+
+.upper{
+    width: 1440px;
+    height: 750px;
+    background-image: url(./photos/tiger.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.content{
+    color: aliceblue;
+    width: 38vw;
+    height: 690px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 50px;
+}
+
+#content1{
+    font-weight: 400px;
+    font-size: 60px;
+    line-height: 77.4px;
+    font-family: "Volkhov", serif;
+
+}
+
+#content2{
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: "Poppins",sans-serif;
+}
+
+.raja{
+    color: #FF9413;
+}
+
+.middle{
+    display: flex;
+    margin-top: 150px;
+}
+
+.left-middle{
+    width: 40vw;
+    padding-left: 35px;
+}
+
+.right-middle{
+    width: 50vw;
+}
+#welcome{
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 27px;
+    font-family: "Poppins",sans-serif;
+    color: #DF6951;
+}
+#content3{
+    font-weight: 700px;
+    font-size: 42px;
+    line-height: 41.2px;
+    font-family: "Volkhov", serif;
+    margin-top: 10px;
+
+}
+#about{
+    font-weight: 300px;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Poppins",sans-serif;
+    margin-top: 50px;
+
+}
+.services{
+    height: 600px;
+    background-color:  #FFFBF4;
+    margin-top: 150px;
+}
+.writing
+{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#category{
+    font-family: "Poppins",sans-serif;
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 27px;
+    color:#DF6951 ;
+}
+#best{
+    font-family: "Volkhov", serif;
+    font-weight: 700px;
+    font-size: 26px;
+    line-height: 33.54px;
+    color: #17171B;
+
+}
+.booking{
+    display: flex;
+    height: 400px;
+    justify-content: space-around;
+}
+.safari{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+.tour{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    border: white solid 5px;
+    height: 350px;
+    background-color: white; 
+    border-radius: 20px;
+    transform: perspective(18px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.hotel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+.taxi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+#heading1{
+    font-family: "Poppins",sans-serif;
+    font-weight: 500px;
+    font-size: 20px;
+    line-height: 30px;
+    color:  #17171B;
+    margin-top: -50px;
+}
+#heading{
+    font-family: "Poppins",sans-serif;
+    font-weight: 500px;
+    font-size: 20px;
+    line-height: 30px;
+    color:  #17171B;
+
+}
+#content4{
+    font-family: "Poppins",sans-serif;
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 26px;
+    color:  #17171B;
+    width: 200px;
+    padding-left: 40px;
+    margin-top: 30px;
+}
+#x{
+    margin-bottom: 20px;
+}
+.testimonial{
+    height: 524px;
+    display: flex;
+    background-color: #FFFFFF;   
+    margin-top: 150px;
+}
+.t-left{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.t-middle{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    align-items: center;
+}
+.t-right{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.p2{
+    display: flex;
+    justify-content: flex-end;
+}
+.p4{
+    display: flex;
+    justify-content: flex-end;
+}
+.p6{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 50px;
+}
+.M1{
+    padding-top: 40px;
+}
+.m1{
+    font-family: "Poppins",sans-serif;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 18px;
+    color: #DF6951;
+    text-align: center;
+    
+}
+.m2{
+    font-family: "Volkhov", serif;
+    font-weight: 700px;
+    font-size: 26px;
+    line-height: 33.54px;
+    color:#14183E;
+}
+.m3{
+    text-align: center;
+    font-family: "Volkhov", serif;
+    font-weight: 700px;
+    font-size: 26px;
+    line-height: 33.54px;
+    color:#14183E
+}
+.m4{
+    font-family: "Poppins",sans-serif;
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+}
+.ast{
+    font-family: "Poppins",sans-serif;
+    font-weight: 500px;
+    font-size: 40px;
+    line-height: 159px;
+    text-align: center;
+    color: #FF9413;
+}
+.m5{
+    font-family: "Poppins",sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: -50px;
+}
+.m6{
+    font-family: "Poppins",sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+}
+.M3{
+    margin-top: -35px;
+}
+.crazy
+{
+    margin-top: 150px;
+    height: 600px;
+    background-image: url(./photos/crazy.png);
+}
+.right-container{
+    color: #FFFFFF;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    padding-right: 50px;
+  
+    
+}
+.crazy1{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 41.2px;
+    font-family: "Volkhov", serif;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    
+    
+}
+.explore{
+    color: #FF9413;
+}
+.crazy2{
+    font-weight: 500px;
+    font-size: 32px;
+    line-height: 30px;
+    font-family: "Poppins",sans-serif;
+    color: #FFFFFF;
+}
