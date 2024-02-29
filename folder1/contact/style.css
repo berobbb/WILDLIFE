@@ -61,22 +61,46 @@ body{
     background-color: #D9D1C7;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     justify-content: center;
     color: #000000;
     font-family: "Poppins",sans-serif;
     line-height: 20px;
     font-weight: 300;
+    padding-left: 20px;
 
     
 }
 #gmail{
     display: flex;
+    align-items: end;
+    flex:1.8;
+    margin-bottom: 10px;
 }
 .logo1{
     padding-right: 10px;
-    margin-bottom: 5px;
+    
 }
 #mail{
     margin-top: 3px;
+}
+.whatsapp{
+    display: flex;
+    justify-content: flex-start;
+    flex: 1;
+}
+#logo2{
+    margin-right: 12px;
+}
+#w{
+    border-radius: 50%;
+}
+.social-media{
+    width: 200px;
+    display: flex;
+    flex: 0.5;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    align-items: end;
+    margin-left: 30px;
 }
