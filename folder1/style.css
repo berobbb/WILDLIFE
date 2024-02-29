@@ -6,6 +6,7 @@
 body{
     margin: 0px;
     padding: 0px;
+    width: 100vw;
 }
 
 .nav-bar{
@@ -94,6 +95,7 @@ a{
 .middle{
     display: flex;
     margin-top: 150px;
+    width: 100vw;
 }
 
 .left-middle{
