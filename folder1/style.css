@@ -133,6 +133,7 @@ a{
     height: 600px;
     background-color:  #FFFBF4;
     margin-top: 150px;
+    width: 100vw;
 }
 .writing
 {
@@ -233,6 +234,7 @@ a{
     display: flex;
     background-color: #FFFFFF;   
     margin-top: 150px;
+    width: 100vw;
 }
 .t-left{
     display: flex;
@@ -328,6 +330,7 @@ a{
     margin-top: 150px;
     height: 600px;
     background-image: url(./photos/crazy.png);
+    width: 100vw;
 }
 .right-container{
     color: #FFFFFF;
