@@ -365,3 +365,31 @@ a{
     font-family: "Poppins",sans-serif;
     color: #FFFFFF;
 }
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+.uppr{
+    display: flex;
+}
+.uppr-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35vw;
+}
+.uppr-right{
+    display: flex;
+    justify-content: space-between;
+    
+    width: 60vw;
+}
+.abt{
+    font-family: "Poppins",sans-serif;
+}
+#bolding{
+    font-weight: 200;
+    font-size: 12px;
+}
